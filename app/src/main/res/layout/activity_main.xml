@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+ <EditText
+     android:id="@+id/firstInputText"
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_margin="10dp"
+     android:hint="첫번째 숫자"/>
+
+
+ <EditText
+     android:id="@+id/secondInputText"
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_margin="10dp"
+     android:hint="두번째 숫자"/>
+
+
+ <!-- <LinearLayout-->
+ <!--     android:layout_width="match_parent"-->
+ <!--     android:layout_height="wrap_content"-->
+ <!--     android:orientation="horizontal">-->
+
+
+ <!--  <Button-->
+ <!--      android:id="@+id/oneBtn"-->
+ <!--      android:layout_width="0dp"-->
+ <!--      android:layout_weight="1"-->
+ <!--      android:layout_height="wrap_content"-->
+ <!--      app:layout_constraintTop_toBottomOf="@id/inputText"-->
+ <!--      app:layout_constraintStart_toStartOf="parent"-->
+ <!--      app:layout_constraintEnd_toStartOf="@id/twoBtn"-->
+ <!--      app:layout_constraintHorizontal_chainStyle="spread_inside"-->
+ <!--      android:text="1"/>-->
+
+ <!--  <Button-->
+ <!--      android:id="@+id/twoBtn"-->
+ <!--      android:layout_width="0dp"-->
+ <!--      android:layout_height="wrap_content"-->
+ <!--      android:layout_weight="1"-->
+ <!--      app:layout_constraintTop_toBottomOf="@id/inputText"-->
+ <!--      app:layout_constraintStart_toEndOf="@id/oneBtn"-->
+ <!--      app:layout_constraintEnd_toStartOf="@id/threeBtn"-->
+ <!--      app:layout_constraintHorizontal_chainStyle="spread_inside"-->
+ <!--      android:text="2"/>-->
+
+ <!--  <Button-->
+ <!--      android:id="@+id/threeBtn"-->
+ <!--      android:layout_width="0dp"-->
+ <!--      android:layout_height="wrap_content"-->
+ <!--      android:layout_weight="1"-->
+ <!--      app:layout_constraintTop_toBottomOf="@id/inputText"-->
+ <!--      app:layout_constraintStart_toEndOf="@id/twoBtn"-->
+ <!--      app:layout_constraintEnd_toEndOf="parent"-->
+ <!--      app:layout_constraintHorizontal_chainStyle="spread_inside"-->
+ <!--      android:text="3"/>-->
+
+
+ <!-- </LinearLayout>-->
+
+
+ <!-- <LinearLayout-->
+ <!--     android:layout_width="match_parent"-->
+ <!--     android:layout_height="wrap_content"-->
+ <!--     android:orientation="horizontal">-->
+
+ <!--  <Button-->
+ <!--      android:id="@+id/fourBtn"-->
+ <!--      android:layout_width="0dp"-->
+ <!--      android:layout_weight="1"-->
+ <!--      android:layout_height="wrap_content"-->
+ <!--      app:layout_constraintTop_toBottomOf="@id/oneBtn"-->
+ <!--      app:layout_constraintStart_toStartOf="parent"-->
+ <!--      app:layout_constraintHorizontal_chainStyle="spread_inside"-->
+ <!--      android:text="4"/>-->
+
+ <!--  <Button-->
+ <!--      android:id="@+id/fiveBtn"-->
+ <!--      android:layout_width="0dp"-->
+ <!--      android:layout_weight="1"-->
+ <!--      android:layout_height="wrap_content"-->
+ <!--      app:layout_constraintTop_toBottomOf="@id/twoBtn"-->
+ <!--      app:layout_constraintStart_toEndOf="@id/fourBtn"-->
+ <!--      app:layout_constraintEnd_toStartOf="@id/sixBtn"-->
+ <!--      app:layout_constraintHorizontal_chainStyle="spread_inside"-->
+ <!--      android:text="5"/>-->
+
+ <!--  <Button-->
+ <!--      android:id="@+id/sixBtn"-->
+ <!--      android:layout_width="0dp"-->
+ <!--      android:layout_weight="1"-->
+ <!--      android:layout_height="wrap_content"-->
+ <!--      app:layout_constraintTop_toBottomOf="@id/threeBtn"-->
+ <!--      app:layout_constraintEnd_toEndOf="parent"-->
+ <!--      app:layout_constraintHorizontal_chainStyle="spread_inside"-->
+ <!--      android:text="6"/>-->
+
+ <!-- </LinearLayout>-->
+
+ <!-- <LinearLayout-->
+ <!--     android:layout_width="match_parent"-->
+ <!--     android:layout_height="wrap_content"-->
+ <!--     android:orientation="horizontal">-->
+ <!--  <Button-->
+ <!--      android:id="@+id/sevenBtn"-->
+ <!--      android:layout_width="0dp"-->
+ <!--      android:layout_weight="1"-->
+ <!--      android:layout_height="wrap_content"-->
+ <!--      app:layout_constraintTop_toBottomOf="@id/fourBtn"-->
+ <!--      app:layout_constraintStart_toStartOf="parent"-->
+ <!--      app:layout_constraintHorizontal_chainStyle="spread_inside"-->
+ <!--      android:text="7"/>-->
+
+ <!--  <Button-->
+ <!--      android:id="@+id/eightBtn"-->
+ <!--      android:layout_width="0dp"-->
+ <!--      android:layout_weight="1"-->
+ <!--      android:layout_height="wrap_content"-->
+ <!--      app:layout_constraintTop_toBottomOf="@id/fiveBtn"-->
+ <!--      app:layout_constraintStart_toEndOf="@id/sevenBtn"-->
+ <!--      app:layout_constraintEnd_toStartOf="@id/nineBtn"-->
+ <!--      app:layout_constraintHorizontal_chainStyle="spread_inside"-->
+ <!--      android:text="8"/>-->
+
+ <!--  <Button-->
+ <!--      android:id="@+id/nineBtn"-->
+ <!--      android:layout_width="0dp"-->
+ <!--      android:layout_weight="1"-->
+ <!--      android:layout_height="wrap_content"-->
+ <!--      app:layout_constraintTop_toBottomOf="@id/sixBtn"-->
+ <!--      app:layout_constraintEnd_toEndOf="parent"-->
+ <!--      app:layout_constraintHorizontal_chainStyle="spread_inside"-->
+ <!--      android:text="9"/>-->
+
+
+ <!-- </LinearLayout>-->
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+
+  <Button
+      android:id="@+id/plusBtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="+"
+      android:textSize="23sp"
+      android:onClick="addClick"/>
+
+  <Button
+      android:id="@+id/minusBtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="-"
+      android:textSize="23sp"
+      android:onClick="minusClick"/>
+
+  <Button
+      android:id="@+id/multiplyBtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="X"
+      android:textSize="23sp"
+      android:onClick="multiplyClick"/>
+
+  <Button
+      android:id="@+id/divisionBtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="÷"
+      android:textSize="23sp"
+      android:onClick="divideClick"/>
+
+
+
+ </LinearLayout>
+
+ <TextView
+     android:id="@+id/resultText"
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_marginTop="15dp"
+     android:textSize="42dp"
+     android:gravity="center"/>
+
+</LinearLayout>
